@@ -18,6 +18,8 @@ de pricing, mix de produtos e estratégia comercial.
 
 Baseline aleatório seria 25% — modelo entrega **2,8x mais acurácia**.
 
+![Avaliação do Modelo](reports/05_avaliacao_modelo.png)
+
 ## Pipeline
 
 Dados Olist (Kaggle)
@@ -25,7 +27,7 @@ Dados Olist (Kaggle)
 → Feature Engineering
 → Treinamento com scikit-learn + XGBoost
 → Tracking com MLflow
-→ Análise de resultados com Power BI / matplotlib
+→ Análise de resultados com matplotlib / seaborn
 
 ## Principais Insights
 
@@ -34,10 +36,15 @@ Dados Olist (Kaggle)
 - **Pico de vendas em novembro/2017** — sazonalidade de Black Friday clara nos dados
 - Categorias **watches_gifts** e **cool_stuff** têm maior dispersão de preço
 
+![Preço por Categoria](reports/02_preco_por_categoria.png)
+
 ## Stack
 
 - Python (pandas, numpy, scikit-learn, XGBoost)
 - MLflow (tracking de experimentos e registro de modelos)
+
+![MLflow Tracking](reports/06_mlflow_runs.png)
+
 - PySpark (pipeline compatível com Azure Databricks)
 - Matplotlib / Seaborn
 - Git + GitHub
@@ -67,5 +74,5 @@ e **Inferência Estatística** (Bacharelado em Estatística — FMU, cursando).
 ## Autor
 
 **Rubens Cristovão da Silva**
-Analista de Dados Sênior | Estatística · Python · dbt · BigQuery · FastAPI
+Analista de Dados Sênior | Estatística · Python · dbt · BigQuery
 [LinkedIn](https://linkedin.com/in/rubenscsilva) • [GitHub](https://github.com/rubenscsilva)
