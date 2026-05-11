@@ -219,3 +219,6 @@ __marimo__/
 
 *.pyc
 .kaggle/
+
+mlflow.db
+mlruns/
